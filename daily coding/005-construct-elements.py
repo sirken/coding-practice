@@ -55,5 +55,12 @@ def cdr(f):
         return l[-1]
     return f(right)
 
+def car(f):
+    return f(lambda l: l[0])
+
+def cdr(f):
+    return f(lambda l: l[-1])
+
+
 print(car(cons([1, 2, 3, 4])))
 print(cdr(cons([1, 2, 3, 4])))
