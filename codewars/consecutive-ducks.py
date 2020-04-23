@@ -62,7 +62,7 @@ test.assert_equals(consecutive_ducks(65), True)
 test.assert_equals(consecutive_ducks(13), True)
 test.assert_equals(consecutive_ducks(16), False)
 test.assert_equals(consecutive_ducks(99), True)
-'''
+
 test.assert_equals(consecutive_ducks(522), True)
 test.assert_equals(consecutive_ducks(974), True)
 test.assert_equals(consecutive_ducks(755), True)
@@ -94,4 +94,3 @@ test.assert_equals(consecutive_ducks(323744), True)
 test.assert_equals(consecutive_ducks(183540), True)
 test.assert_equals(consecutive_ducks(65271), True)
 test.assert_equals(consecutive_ducks(5263987), True)
-'''
