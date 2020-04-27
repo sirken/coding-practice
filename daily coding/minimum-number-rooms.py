@@ -13,16 +13,15 @@ def check_rooms(rooms):
 
     # Loop through time range
     total_rooms = 0
-    working = 0
+    counter = 0
     for x in range(min(t), max(t)+1):
         if x in t:
-            print(working)
             if t.index(x) % 2 == 0:
-                working += 1
-                if total_rooms < working:
-                    total_rooms = working
+                counter += 1
+                if total_rooms < counter:
+                    total_rooms = counter
             else:
-                working -= 1
+                counter -= 1
     return total_rooms
 
 print(check_rooms([(30, 75), (0, 50), (60, 150)]))
