@@ -13,7 +13,7 @@ def fake_bin(x):
             output += '1'
     return output
 
-# Clever one
+# Nice one
 def fake_bin(s):
     return s.translate(string.maketrans('0123456789', '0000011111'))
 
